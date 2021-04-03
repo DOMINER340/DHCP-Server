@@ -1,0 +1,33 @@
+BEGIN
+
+dirrecion_ip_server 192.168.0.6
+mascara_de_red_server 255.255.255.248
+gateway_server 192.168.0.1
+dns_server 8.8.8.8
+
+RED_1
+rango_direcciones_subred_uno 192.168.0.0 192.168.0.7
+rango_direcciones_a_entregar_uno 192.168.0.2 192.168.0.6
+mascara_red_uno 255.255.255.248
+gateway_uno 192.168.0.1
+dns_uno 8.8.8.8
+lease_time_uno 600
+
+RED_2
+rango_direcciones_subred_dos 192.168.0.9 192.168.0.14
+rango_direcciones_a_entregar_dos  192.168.0.10 192.168.0.13
+mascara_red_dos 255.255.255.248
+gateway_dos 192.168.0.9
+dns_dos 8.8.8.8
+lease_time_dos 3600
+
+END
+
+
+
+
+
+
+
+
+
